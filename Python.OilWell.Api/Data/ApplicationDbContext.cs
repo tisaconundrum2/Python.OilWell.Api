@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Python.OilWell.Api.Models;
 
 namespace Python.OilWell.Api.Data
 {
@@ -9,6 +10,7 @@ namespace Python.OilWell.Api.Data
         {
         }
 
-        // Add DbSet properties for your entities here
+        public DbSet<DatabaseSeeded> DatabaseSeeded { get; set; }
+        public DbSet<Well> Wells { get; set; }
     }
 }
