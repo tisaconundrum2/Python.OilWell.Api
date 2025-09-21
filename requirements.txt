@@ -1,5 +1,0 @@
-Flask
-flasgger
-lxml
-requests
-cssselect
